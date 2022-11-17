@@ -1,0 +1,145 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    color: white;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+h4 {
+    margin-left: 40%;
+}
+
+.link-button-second {
+    text-decoration: double;
+    background-image: linear-gradient(red, tomato);
+    color: white;
+    font-weight: 600;
+    margin-left: 46%;
+    border-radius: 2px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.donate-now-description {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.flexible-container {
+    padding-left: 30%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.donate-container {
+    margin-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.first-part {
+    margin-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.second-part {
+    margin-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.third-part {
+    margin-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#food-for-a-family {
+    background-image: linear-gradient(rgb(66, 66, 207), white);
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+#shelter-for-a-family {
+    background-image: linear-gradient(red, white);
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+#education-for-a-child {
+    background-image: linear-gradient(green, white);
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+.footer {
+    background-image: linear-gradient(gray, orangered);
+    box-shadow: 10px 10px 30px gray;
+    padding: 2%;
+}
+
+.other-amount {
+    text-align: center;
+}
+
+.donate-button-normal {
+    text-decoration: none;
+    background-image: linear-gradient(white, white);
+    color: gray;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.donate-button-highlight {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, purple);
+    color: white;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.center {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
